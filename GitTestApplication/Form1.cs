@@ -15,5 +15,10 @@ namespace GitTestApplication
         {
             InitializeComponent();
         }
+
+        private void clickMeBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You have clicked me");
+        }
     }
 }
