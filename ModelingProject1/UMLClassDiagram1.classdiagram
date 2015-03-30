@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="52c95c78-38c2-43b8-9036-1e51b9bdcc46" name="UMLClassDiagram1" linkedPackageId="85e53498-f690-4a1f-bdae-e4999c1e5de5" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="88fc063c-a132-4ad3-acd7-e7662d586170">
+      <profileInstance Id="762f82e5-fc41-40b8-8b8c-974febac47f8" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="49503828-8b43-4c8f-8c63-fd161dc76e65">
+      <profileInstance Id="129a48e3-e806-4333-8625-6554fa4ec76f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8b4bd89f-a4e1-404e-af73-f25cf9d15309" name="Neuron" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4991e44e-5935-4df8-9c1a-ef3333d9d8fe" />
+        <targetEnds>
+          <association Id="70ca0f85-4501-4cd7-9985-7ed5448eb42f" isDerived="false" sourceEndRoleName="Neuron" targetEndRoleName="Class1" isLeaf="false" isAbstract="false">
+            <classMoniker Id="bf4a9147-1f21-454f-ad37-770cb14d65b2" LastKnownName="Class1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5034dd43-627d-430e-b57e-e01ef60ec059" name="Neuron" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="69d7a2e0-9837-4d4d-a44b-fc9b16035379" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="006e3ec5-d5c9-4b6f-8f3a-ade588ce498e" name="Class1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2c370501-25da-4ede-86df-625dea90de87" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="47f7ef22-b941-49dc-bf89-6ff55b931cfe" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="cfd1c58a-b9e8-4168-a9ee-75ec93fdec03" name="test" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="21a67316-1618-41e9-ab5d-a25587086d83" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="794e0c7b-7792-4f54-809a-0c3e36e69d30" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="794e0c7b-7792-4f54-809a-0c3e36e69d30" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bf4a9147-1f21-454f-ad37-770cb14d65b2" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="121e68ed-55f9-4e80-987d-60d08f85ea70" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="85e53498-f690-4a1f-bdae-e4999c1e5de5" name="ModelingProject1">
+    <elementDefinition Id="850b45c9-d4cd-4dda-ab86-c66dcd14d7d0" />
+  </package>
+</logicalClassDesignerModel>
